@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <title>Karan pandey Portfolio website</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1><span>K</span>aran.</h1>
+                <ul id="sidemenu">                     
+               <!-- <li><a href="#home" onclick="toggleMenu()">Home</a></li> -->
+               <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+               <li><a href="#about" onclick="toggleMenu()">About</a></li>
+               <li><a href="#contact" onclick="toggleMenu()">Contact us</a></li>
+               <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+                    <i class="fa fa-times none" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars none" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>hii i am <span>karan pandey</span> <br> from Pratapgarh</h1>
+            </div>
+        </div>
+    </div>
+    <!-- this is our About page -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis sapiente ullam saepe nihil,
+                        animi qui illum, deserunt soluta illo, excepturi nam? Accusantium tempora consectetur cumque
+                        eligendi cupiditate laborum aliquid qui.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quod!.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Develop web/App interfaces</li>
+                            <li><span>Web Development</span><br>Develop web/App interfaces</li>
+                            <li><span>App Development</span><br>Develop web/App interfaces</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Develop web/App interfaces</li>
+                            <li><span>2019-20221</span><br>Team lead at startup LLC</li>
+                            <li><span>2016-2019</span><br>searching for Internship</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>leatn from youtybe</li>
+                            <li><span>2017</span><br>BCA for PRSIT Pratapgarh</li>
+                            <li><span>2014</span><br>Work with real project</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services  code-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My-Services</h1>
+            <div class="services-list">
+                <div>
+
+                    <h2>Front-end </h2>
+                    <p>here i list some frontend project using HTML, CSS & JavaScript these project are responsive</p>
+                    <a href="#">Click to view Projects</a>
+                </div>
+
+                <div>
+                    <h2>Back-end</h2>
+                    <p>here i list some backend project on frontend i am using HTML, CSS and JavaScript and for backend
+                        i am using node js</p>
+                    <a href="">Click to view Projects</a>
+                </div>
+
+                <div>
+                    <h2>Data base</h2>
+                    <p>here i list some database project for database i am using mongo DB & mongoose</p>
+                    <a href="#">Click to view Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------portfolio------------- -->
+
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+
+
+
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Tic-toc Game</h3>
+                        <p>this is a tic-toc game using HTML, CSS and JavaScript</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Weather API</h3>
+                        <p>It is a weather API Project using HTML,CSS & JavaScript
+                            for backend i am using node js for this project.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Chat Application</h3>
+                        <p>This s a chat application i will create it using JavaScript and node js</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://mamtahardware.com/" class="btn">Real time Projects</a>
+        </div>
+    </div>
+    <!-- form code start here  -->
+
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <p> <i class="fa fa-envelope"></i>
+            - pandeykaran1515@gmail.com</p>
+        <p> <i class="fa fa-phone-square"></i>
+            - 9569125048</p>
+    </div>
+
+    <br>
+    <br><br>
+
+    <section>
+
+        <div class="formcontainer">
+            <div class="around">
+                <h1>Contact Me</h1>
+                <p> <i class="fa fa-envelope"></i>
+                    - pandeykaran1515@gmail.com</p>
+                <p> <i class="fa fa-phone-square"></i>
+                    - 9569125048</p>
+
+            </div>
+
+            <form>
+                <i class="fas fa-paper-plane"></i>
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validatename()">
+
+
+                    <span id="name-error"></span>
+
+                </div>
+
+                <div class="input-group">
+                    <label>Phone No.</label>
+                    <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatephone()">
+                    <span id="phone-error"></span>
+
+                </div>
+
+                <div class="input-group">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateemail()">
+                    <span id="email-error"></span>
+
+                </div>
+
+                <div class="input-group">
+                    <label>Your Message</label>
+                    <textarea rows="5" placeholder="Enter your message"></textarea id="contact-message" onkeyup="validatemessage()">
+                                    <span id="message-error"></span>
+                                  </div>
+                            
+                                <button onclick="return validateform()">Submit</button>
+                               <span id="subit-error" ></span>
+                              </form>
+                              
+                              </div>
+                            
+                            </section>
+                            <br>
+    <br>
+    
+        <footer>
+         <p>copyright @ karan pandey with code self</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
